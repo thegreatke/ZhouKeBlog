@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 /**
- * @author zhouke  test_git 
+ * @author zhouke  test_git
  */
 @SpringBootApplication
 @EnableTransactionManagement
