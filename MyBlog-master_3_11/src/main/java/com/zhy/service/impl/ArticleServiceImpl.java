@@ -56,7 +56,7 @@ public class ArticleServiceImpl implements ArticleService {
             }
             if("".equals(article.getArticleUrl())){
 //                String url = "http://localhost/findArticle?articleId=" + article.getArticleId() + "&originalAuthor=" + article.getOriginalAuthor();
-                String url = "https://www.zhyocean.cn/findArticle?articleId=" + article.getArticleId() + "&originalAuthor=" + article.getOriginalAuthor();
+                String url = "https://www.thegreatke.cn/findArticle?articleId=" + article.getArticleId() + "&originalAuthor=" + article.getOriginalAuthor();
                 article.setArticleUrl(url);
             }
             Article endArticleId = articleMapper.findEndArticleId();
@@ -96,7 +96,7 @@ public class ArticleServiceImpl implements ArticleService {
         Article a = articleMapper.getArticleUrlById(article.getId());
         if("原创".equals(article.getArticleType())){
             article.setOriginalAuthor(article.getAuthor());
-            String url = "https://www.zhyocean.cn/findArticle?articleId=" + a.getArticleId() + "&originalAuthor=" + a.getOriginalAuthor();
+            String url = "https://www.thegreatke.cn/findArticle?articleId=" + a.getArticleId() + "&originalAuthor=" + a.getOriginalAuthor();
             article.setArticleUrl(url);
         }
         articleMapper.updateArticleById(article);
