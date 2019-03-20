@@ -11,7 +11,7 @@ import javax.sql.DataSource;
 import java.io.IOException;
 
 /**
- * @author: zhangocean
+ * @author: TheGreatKe
  * @Date: 2018/6/5 19:23
  * Describe: 配置与连接池的会话
  */

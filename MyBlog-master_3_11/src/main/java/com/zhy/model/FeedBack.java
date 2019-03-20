@@ -3,7 +3,7 @@ package com.zhy.model;
 import lombok.Data;
 
 /**
- * @author: zhangocean
+ * @author: TheGreatKe
  * @Date: 2018/7/23 17:17
  * Describe: 反馈
  */

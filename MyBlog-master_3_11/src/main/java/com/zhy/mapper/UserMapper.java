@@ -7,7 +7,7 @@ import org.springframework.stereotype.Repository;
 import java.util.List;
 
 /**
- * @author: zhangocean
+ * @author: TheGreatKe
  * @Date: 2018/6/4 15:52
  * Describe: user表SQL语句
  */

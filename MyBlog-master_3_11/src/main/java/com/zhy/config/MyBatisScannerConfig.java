@@ -5,7 +5,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 /**
- * @author: zhangocean
+ * @author: TheGreatKe
  * @Date: 2018/6/5 19:29
  * Describe: 基于JavaConfig配置MyBatis的配置文件方式写sql语句的扫描包
  */

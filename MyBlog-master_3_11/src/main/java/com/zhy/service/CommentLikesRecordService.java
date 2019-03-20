@@ -4,7 +4,7 @@ import com.zhy.model.CommentLikesRecord;
 import org.springframework.stereotype.Service;
 
 /**
- * @author: zhangocean
+ * @author: TheGreatKe
  * @Date: 2018/7/12 13:47
  * Describe:评论点赞记录业务操作
  */
