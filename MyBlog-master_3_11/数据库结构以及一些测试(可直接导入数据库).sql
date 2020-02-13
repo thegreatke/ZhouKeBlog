@@ -7,7 +7,8 @@ Source Host           : localhost:3306
 Source Database       : myblog ————————test   3月15
 
 Target Server Type    : MYSQL
-Target Server Version : 50719
+Target Server
+Version : 50719
 File Encoding         : 65001
 
 Date: 2018-09-19 14:31:10

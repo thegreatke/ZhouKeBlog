@@ -35,7 +35,32 @@
     <script src="https://cdn.bootcss.com/js-sequence-diagrams/1.0.6/sequence-diagram-min.js"></script>
     <script src="https://cdn.bootcss.com/flowchart/1.11.3/flowchart.min.js"></script>
     <script src="js/lightgallery/lightgallery.js"></script>
-
+    <!-- 右下角live2d效果 -->
+    <script type="text/javascript" charset="utf-8" async="" src=" https://cdn.jsdelivr.net/npm/live2d-widget@3.1.4/lib/L2Dwidget.min.js"></script>
+    <!-- 右下角live2d效果 -->
+    <script type="text/javascript">
+        setTimeout(() => {
+            L2Dwidget.init({
+                "model": {
+                    "scale": 1
+                },
+                "display": {
+                    "position": "left",
+                    "width": 180,
+                    "height": 260,
+                    "hOffset": 0,
+                    "vOffset": -20
+                },
+                "mobile": {
+                    "show": false
+                },
+                "react": {
+                    "opacityDefault": 0.7,
+                    "opacityOnHover": 0.2
+                }
+            });
+        }, 1000)
+    </script>
 </head>
 <body>
 <div id="app">

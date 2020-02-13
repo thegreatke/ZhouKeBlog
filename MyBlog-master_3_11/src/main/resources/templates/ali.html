@@ -285,5 +285,31 @@
 	<audio id="bgmMusic" src="music/saveme.mp3" autoplay="autoplay" loop preload="auto" type="audio/mp3"></audio>
 
 <div class="mPower"><span id="on" title="点击暂停"></span><span id="off" title="点击播放"></span></div>
+	<!-- 右下角live2d效果 -->
+	<script type="text/javascript" charset="utf-8" async="" src=" https://cdn.jsdelivr.net/npm/live2d-widget@3.1.4/lib/L2Dwidget.min.js"></script>
+	<!-- 右下角live2d效果 -->
+	<script type="text/javascript">
+		setTimeout(() => {
+			L2Dwidget.init({
+				"model": {
+					"scale": 1
+				},
+				"display": {
+					"position": "left",
+					"width": 180,
+					"height": 260,
+					"hOffset": 0,
+					"vOffset": -20
+				},
+				"mobile": {
+					"show": false
+				},
+				"react": {
+					"opacityDefault": 0.7,
+					"opacityOnHover": 0.2
+				}
+			});
+		}, 1000)
+	</script>
 </body>
 </html>

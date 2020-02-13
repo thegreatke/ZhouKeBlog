@@ -277,5 +277,31 @@
 
 <script src="js/register.js"></script>
 <script src="js/all.js"></script>
+<!-- 右下角live2d效果 -->
+<script type="text/javascript" charset="utf-8" async="" src=" https://cdn.jsdelivr.net/npm/live2d-widget@3.1.4/lib/L2Dwidget.min.js"></script>
+<!-- 右下角live2d效果 -->
+<script type="text/javascript">
+    setTimeout(() => {
+        L2Dwidget.init({
+            "model": {
+                "scale": 1
+            },
+            "display": {
+                "position": "left",
+                "width": 180,
+                "height": 260,
+                "hOffset": 0,
+                "vOffset": -20
+            },
+            "mobile": {
+                "show": false
+            },
+            "react": {
+                "opacityDefault": 0.7,
+                "opacityOnHover": 0.2
+            }
+        });
+    }, 1000)
+</script>
 </body>
 </html>
